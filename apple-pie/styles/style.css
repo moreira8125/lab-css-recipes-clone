@@ -22,3 +22,96 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+/* FIRST PART */
+#first-h1 {
+text-align: center;
+font-size: 80px;
+letter-spacing: 2px;
+color: white;
+}
+
+#firstDiv{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  padding: 550px 0px;
+  margin-top: -200px;
+}
+
+#firstP{
+  margin: 50px 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  padding-top: 30px;
+}
+
+
+
+/* SECOND PART */
+
+#recipeInfo{
+  display: block;
+  margin: auto auto 50px auto;
+  width: 450px;
+  height: 70px;
+}
+
+hr{
+  width: 70%;
+  border: none;
+  height: 1.2px;
+  background-color: black;
+  margin-top: -20px;
+}
+
+
+#recipe{
+  margin: 20px auto auto 250px;
+  padding: 20px;
+}
+
+.h2{
+  margin-bottom: 20px;
+  margin-left: -20px;
+  font-weight: 500;
+}
+
+#recipe ul{
+  list-style:none;
+  font-size: 18px;
+}
+
+#recipe ul li{
+  margin-bottom: 5px;
+}
+
+#cookingInfo{
+  display: block;
+  margin: 30px auto 50px auto;
+  width: 370px;
+  height: 80px;
+  
+}
+
+
+
+/* THIRD PART */
+
+#directions {
+  margin: 20px auto 100px 250px;
+  padding: 20px;
+}
+
+#directions ol li{
+  font-size: 18px;
+  margin-bottom: 5px;
+  counter-increment: listcounter;
+  list-style: none;
+}
+
+#directions ol li::before{
+  content: counter(listcounter) ")";
+}
